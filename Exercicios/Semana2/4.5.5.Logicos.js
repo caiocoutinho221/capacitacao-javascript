@@ -6,3 +6,26 @@
 
 
 //c) Por fim, teste se as variáveis do da letra a e b são iguais. Se forem, exiba a mensagem 'Os números são iguais', caso contrário, exiba a mensagem 'Os números são diferentes'.
+
+const num = 40
+
+if (num > 0 && num % 2 === 0) {
+    console.log("O número é positivo e par");
+} else {
+    console.log("O número não é positivo e par");
+}
+
+const numB = 25
+
+//b
+if ((numB > 0 || numB % 2 === 0) && !(numB > 0 && numB % 2 === 0)) {
+    console.log("O número é positivo ou par");
+} else {
+    console.log("O número não é positivo ou par");
+}
+//c
+if (num === numB) {
+    console.log("Os números são iguais");
+} else {
+    console.log("Os números são diferentes");
+}
